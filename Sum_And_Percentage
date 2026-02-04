@@ -6,23 +6,23 @@ int main()
  float sum, percentage, total;
 
  printf("Please,enter the maximum marks of first subject: \n");
- scanf("%f", &Max1);
+ scanf("%d", &Max1);
  printf("Now, enter the marks of first subject: \n");
  scanf("%f", &m1);
  printf("Please,enter the maximum marks of second subject: \n");
- scanf("%f", &Max2);
+ scanf("%d", &Max2);
  printf("Now, enter the marks of second subject: \n");
  scanf("%f", &m2);
  printf("Please,enter the maximum marks of third subject: \n");
- scanf("%f", &Max3);
+ scanf("%d", &Max3);
  printf("Now, enter the marks of third subject: \n");
  scanf("%f", &m3);
  printf("Please,enter the maximum marks of fourth subject: \n");
- scanf("%f", &Max4);
+ scanf("%d", &Max4);
  printf("Now, enter the marks of fourth subject: \n");
  scanf("%f", &m4);
  printf("Please,enter the maximum marks of fifth subject: \n");
- scanf("%f", &Max5);
+ scanf("%d", &Max5);
  printf("Now, enter the marks of fifth subject: \n");
  scanf("%f", &m5);
  

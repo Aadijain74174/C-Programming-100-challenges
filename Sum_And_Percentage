@@ -7,30 +7,30 @@ int main()
 
  printf("Please,enter the maximum marks of first subject: \n");
  scanf("%f", &Max1);
- printf("Please enter the marks of first subject: \n");
+ printf("Now, enter the marks of first subject: \n");
  scanf("%f", &m1);
  printf("Please,enter the maximum marks of second subject: \n");
  scanf("%f", &Max2);
- printf("Please enter the marks of second subject: \n");
+ printf("Now, enter the marks of second subject: \n");
  scanf("%f", &m2);
  printf("Please,enter the maximum marks of third subject: \n");
  scanf("%f", &Max3);
- printf("Please enter the marks of third subject: \n");
+ printf("Now, enter the marks of third subject: \n");
  scanf("%f", &m3);
  printf("Please,enter the maximum marks of fourth subject: \n");
  scanf("%f", &Max4);
- printf("Please enter the marks of fourth subject: \n");
+ printf("Now, enter the marks of fourth subject: \n");
  scanf("%f", &m4);
  printf("Please,enter the maximum marks of fifth subject: \n");
  scanf("%f", &Max5);
- printf("Please enter the marks of fifth subject: \n");
+ printf("Now, enter the marks of fifth subject: \n");
  scanf("%f", &m5);
  
  sum = m1 + m2 + m3 + m4 + m5;
  printf("\nThe total marks is %f.", sum);
 
  total = Max1 + Max2 + Max3 + Max4 + Max5;
- percentage = (sum\total)*100;
+ percentage = (sum/total)*100;
  printf("\nThe percentage of total marks is %f.", percentage);
  return 0;
 }

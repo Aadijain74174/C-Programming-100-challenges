@@ -30,7 +30,7 @@ int main()
  printf("\nThe total marks is %f.", sum);
 
  total = Max1 + Max2 + Max3 + Max4 + Max5;
- percentage = (sum/total)*100;
+ percentage = (sum / total) * 100;
  printf("\nThe percentage of total marks is %f.", percentage);
  return 0;
 }

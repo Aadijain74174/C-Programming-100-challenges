@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main
+int main()
 {
  int Max1, Max2, Max3, Max4, Max5;
  float m1, m2, m3, m4, m5;
@@ -26,11 +26,11 @@ int main
  printf("Please enter the marks of fifth subject: \n");
  scanf("%f", &m5);
  
- sum = m1 + m2 + m3 + m4 m5;
+ sum = m1 + m2 + m3 + m4 + m5;
  printf("\nThe total marks is %f.", sum);
 
  total = Max1 + Max2 + Max3 + Max4 + Max5;
- percentage = (sum/total)*100;
- printf(\nThe percentage of total marks is %f.", percentage);
+ percentage = (sum\total)*100;
+ printf("\nThe percentage of total marks is %f.", percentage);
  return 0;
 }

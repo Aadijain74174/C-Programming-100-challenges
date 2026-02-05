@@ -3,7 +3,8 @@
 int main()
 {
 float P, R, T;
-printf("Welcome to compund interest caculatour\n"); printf("Please enter the principal value: ");
+printf("Welcome to compund interest caculatour\n"); 
+printf("Please enter the principal value: ");
 scanf("%f", &P);
 printf("Now, enter the rate: ");
 scanf("%f", &R);
